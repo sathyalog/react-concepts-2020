@@ -4,6 +4,7 @@ import './App.css';
 import Greet from './components/Greet';
 import Greeting from './components/Greeting';
 import WithJSX from './components/WithJSX';
+import WithoutJSX from './components/WithoutJSX';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Greet/>
       <Greeting />
       <WithJSX/>
+      <WithoutJSX/>
     </div>
   );
 }
