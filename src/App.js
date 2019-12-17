@@ -5,6 +5,7 @@ import Greet from './components/Greet';
 import Greeting from './components/Greeting';
 import WithJSX from './components/WithJSX';
 import WithoutJSX from './components/WithoutJSX';
+import Message from './components/Message';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <WithoutJSX/>
       <Greet name='Sathya' nickname='Manu'>Functional Component children props</Greet>
       <Greet name='Narahari' nickname='Bijjala'/>
+      <Message/>
     </div>
   );
 }
