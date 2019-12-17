@@ -6,6 +6,7 @@ import Greeting from './components/Greeting';
 import WithJSX from './components/WithJSX';
 import WithoutJSX from './components/WithoutJSX';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Greet name='Sathya' nickname='Manu'>Functional Component children props</Greet>
       <Greet name='Narahari' nickname='Bijjala'/>
       <Message/>
+      <Counter/>
     </div>
   );
 }
