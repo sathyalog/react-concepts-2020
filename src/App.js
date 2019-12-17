@@ -9,10 +9,11 @@ import WithoutJSX from './components/WithoutJSX';
 function App() {
   return (
     <div className="App">
-      <Greet/>
-      <Greeting />
+      <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
       <WithJSX/>
       <WithoutJSX/>
+      <Greet name='Sathya' nickname='Manu'>Functional Component children props</Greet>
+      <Greet name='Narahari' nickname='Bijjala'/>
     </div>
   );
 }
