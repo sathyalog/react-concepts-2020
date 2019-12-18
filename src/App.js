@@ -8,6 +8,7 @@ import WithoutJSX from './components/WithoutJSX';
 import Message from './components/Message';
 import Counter from './components/Counter';
 import ClickHandler from './components/ClickHandler';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Message/>
       <Counter/>
       <ClickHandler/>
+      <ParentComponent/>
     </div>
   );
 }

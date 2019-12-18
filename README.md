@@ -1,3 +1,19 @@
+### How to run this lessons?
+
+`npm start`
+
+Please follow the commit names to understand the concepts clearly.
+
+For more info: Please visit this [link](https://sathyalog.wordpress.com/2019/12/16/react-basics-2019/)
+
+#### Please install 'ES7 React/Redux/GraphQL/React-Native snippets' vscode extension for productivity
+Following are the snippets shortcut to use
+1. `rconst` - constructor generation
+2. `rce` - class component
+3. `rfce` - functional component
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
