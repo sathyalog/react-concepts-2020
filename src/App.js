@@ -7,6 +7,7 @@ import WithJSX from './components/WithJSX';
 import WithoutJSX from './components/WithoutJSX';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import ClickHandler from './components/ClickHandler';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Greet name='Narahari' nickname='Bijjala'/>
       <Message/>
       <Counter/>
+      <ClickHandler/>
     </div>
   );
 }
