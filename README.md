@@ -12,7 +12,7 @@ Following are the snippets shortcut to use
 2. `rce` - class component
 3. `rfce` - functional component
 
-Concepts Covered:
+#### Concepts Covered:
 
 1. Functional Component
 2. Class Component

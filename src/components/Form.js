@@ -38,9 +38,9 @@ class Form extends Component {
         return (
             <div>
                 <form onSubmit={this.handleSubmit}>
-                <label for="username">Username: </label>
+                <label>Username: </label>
                 <input type="text" value={this.state.username} onChange={this.nameHandler}></input><br/>
-                <label for="comments">Comments:</label>
+                <label>Comments:</label>
                 <textarea value={this.state.comment} onChange={this.commentHandler}></textarea><br/>
                 <select value={this.state.dropdown} onChange={this.dropdownHandler}>
                     <option value='react'>React</option>

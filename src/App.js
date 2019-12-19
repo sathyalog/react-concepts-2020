@@ -11,11 +11,12 @@ import ClickHandler from './components/ClickHandler';
 import ParentComponent from './components/ParentComponent';
 import StylingComponent from './components/StylingComponent'
 import Form from './components/Form';
+import LifecycleA from './components/LifecycleA';
 
 function App() {
   return (
     <div className="App">
-      <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
+      {/* <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
       <WithJSX/>
       <WithoutJSX/>
       <Greet name='Sathya' nickname='Manu'>Functional Component children props</Greet>
@@ -25,7 +26,8 @@ function App() {
       <ClickHandler/>
       <ParentComponent/>
       <StylingComponent primary={true}/>
-      <Form/>
+      <Form/> */}
+      <LifecycleA/>
     </div>
   );
 }
