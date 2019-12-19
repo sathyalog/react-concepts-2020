@@ -9,6 +9,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import ClickHandler from './components/ClickHandler';
 import ParentComponent from './components/ParentComponent';
+import StylingComponent from './components/StylingComponent'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Counter/>
       <ClickHandler/>
       <ParentComponent/>
+      <StylingComponent primary={true}/>
     </div>
   );
 }
