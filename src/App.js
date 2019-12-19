@@ -10,6 +10,7 @@ import Counter from './components/Counter';
 import ClickHandler from './components/ClickHandler';
 import ParentComponent from './components/ParentComponent';
 import StylingComponent from './components/StylingComponent'
+import Form from './components/Form';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <ClickHandler/>
       <ParentComponent/>
       <StylingComponent primary={true}/>
+      <Form/>
     </div>
   );
 }
