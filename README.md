@@ -4,7 +4,7 @@
 
 Please follow the commit names to understand the concepts clearly.
 
-For more info: Please visit this [link](https://sathyalog.wordpress.com/2019/12/16/react-basics-2019/)
+For more info: Please visit this [link](https://sathyalog.wordpress.com/2019/12/16/react-basics-2020/)
 
 #### Please install 'ES7 React/Redux/GraphQL/React-Native snippets' vscode extension for productivity
 Following are the snippets shortcut to use
@@ -12,7 +12,20 @@ Following are the snippets shortcut to use
 2. `rce` - class component
 3. `rfce` - functional component
 
+Concepts Covered:
 
+1. Functional Component
+2. Class Component
+3. with JSX
+4. without JSX
+5. Props, children props for both functional and class components
+6. States
+7. setState, prevState examples
+8. Binding event handlers
+9. How to use methods as props
+10. Styling Components
+11. Handling forms
+--------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
