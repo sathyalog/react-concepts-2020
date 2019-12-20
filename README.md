@@ -11,6 +11,7 @@ Following are the snippets shortcut to use
 1. `rconst` - constructor generation
 2. `rce` - class component
 3. `rfce` - functional component
+4. `rpce` - pure component
 
 #### Concepts Covered:
 
