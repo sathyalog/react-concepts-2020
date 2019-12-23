@@ -26,6 +26,10 @@ Following are the snippets shortcut to use
 9. How to use methods as props
 10. Styling Components
 11. Handling forms
+12. Life Cycle Methods(Mounting,Updating)
+13. Pure Components
+14. React Memo
+15. Refs
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

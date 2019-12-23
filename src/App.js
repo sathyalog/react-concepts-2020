@@ -12,7 +12,8 @@ import './App.css';
 // import StylingComponent from './components/StylingComponent'
 // import Form from './components/Form';
 // import LifecycleA from './components/LifecycleA';
-import ParentComp from './components/ParentComp';
+//import ParentComp from './components/ParentComp';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
       <ParentComponent/>
       <StylingComponent primary={true}/>
       <Form/> 
-      <LifecycleA/>*/}
-      <ParentComp/>
+      <LifecycleA/>
+      <ParentComp/>*/}
+      <RefsDemo/>
     </div>
   );
 }
