@@ -14,10 +14,12 @@ import './App.css';
 // import LifecycleA from './components/LifecycleA';
 //import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
+import FRParentInput from './components/FRParentInput';
 
 function App() {
   return (
     <div className="App">
+      <FRParentInput/>
       {/* <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
       <WithJSX/>
       <WithoutJSX/>
@@ -30,8 +32,8 @@ function App() {
       <StylingComponent primary={true}/>
       <Form/> 
       <LifecycleA/>
-      <ParentComp/>*/}
-      <RefsDemo/>
+      <ParentComp/>
+      <RefsDemo/> */}
     </div>
   );
 }

@@ -30,6 +30,7 @@ Following are the snippets shortcut to use
 13. Pure Components
 14. React Memo
 15. Refs
+16. Forward Refs
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
