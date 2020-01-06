@@ -38,7 +38,7 @@ function App() {
       <ParentComp/>
       <RefsDemo/> 
       <PortalDemo/>*/}
-      <ClickCounter/>
+      <ClickCounter name="User"/>
       <HoverCounter/>
     </div>
   );
