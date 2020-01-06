@@ -16,6 +16,8 @@ import './App.css';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput';
 import PortalDemo from './components/PortalDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
@@ -34,8 +36,10 @@ function App() {
       <Form/> 
       <LifecycleA/>
       <ParentComp/>
-      <RefsDemo/> */}
-      <PortalDemo/>
+      <RefsDemo/> 
+      <PortalDemo/>*/}
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   );
 }

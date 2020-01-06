@@ -32,6 +32,7 @@ Following are the snippets shortcut to use
 15. Refs
 16. Forward Refs
 17. Portals
+18. HOC - Higher Order Components
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
