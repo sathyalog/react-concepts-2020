@@ -15,12 +15,13 @@ import './App.css';
 //import ParentComp from './components/ParentComp';
 import RefsDemo from './components/RefsDemo';
 import FRParentInput from './components/FRParentInput';
+import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput/>
-      {/* <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
+       {/*<FRParentInput/>
+      <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
       <WithJSX/>
       <WithoutJSX/>
       <Greet name='Sathya' nickname='Manu'>Functional Component children props</Greet>
@@ -34,6 +35,7 @@ function App() {
       <LifecycleA/>
       <ParentComp/>
       <RefsDemo/> */}
+      <PortalDemo/>
     </div>
   );
 }

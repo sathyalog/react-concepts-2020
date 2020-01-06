@@ -31,6 +31,7 @@ Following are the snippets shortcut to use
 14. React Memo
 15. Refs
 16. Forward Refs
+17. Portals
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
