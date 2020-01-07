@@ -18,8 +18,10 @@ import './App.css';
 // import PortalDemo from './components/PortalDemo';
 // import ClickCounter from './components/ClickCounter';
 // import HoverCounter from './components/HoverCounter';
-import Chandra from './components/Chandra';
-import {AssetProvider} from './components/context'
+// import Chandra from './components/Chandra';
+// import {AssetProvider} from './components/context';
+import HttpDisplayPosts from './components/HttpDisplayPosts';
+import HttpPostForm from './components/HttpPostForm';
 
 function App() {
   return (
@@ -41,10 +43,12 @@ function App() {
       <RefsDemo/> 
       <PortalDemo/>
       <ClickCounter name="User"/>
-      <HoverCounter/>*/}
+      <HoverCounter/>
       <AssetProvider value="Vakacharla Assets">
         <Chandra/>
-      </AssetProvider>
+      </AssetProvider>*/}
+      <HttpDisplayPosts/>
+      <HttpPostForm/>
     </div>
   );
 }

@@ -12,6 +12,7 @@ Following are the snippets shortcut to use
 2. `rce` - class component
 3. `rfce` - functional component
 4. `rpce` - pure component
+5. `clg` - console.log
 
 #### Concepts Covered:
 
@@ -34,6 +35,7 @@ Following are the snippets shortcut to use
 17. Portals
 18. HOC - Higher Order Components
 19. Context API - Eg: Vihaan(Grandson) is directly fetching his GrandFather(Chandra) assets without his Father(Sathya) help.
+20. HTTP - GET and POST using Axios
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
