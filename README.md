@@ -36,6 +36,7 @@ Following are the snippets shortcut to use
 18. HOC - Higher Order Components
 19. Context API - Eg: Vihaan(Grandson) is directly fetching his GrandFather(Chandra) assets without his Father(Sathya) help.
 20. HTTP - GET and POST using Axios
+21. Redux with a basic example
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

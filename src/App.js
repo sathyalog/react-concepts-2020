@@ -22,6 +22,7 @@ import './App.css';
 // import {AssetProvider} from './components/context';
 import HttpDisplayPosts from './components/HttpDisplayPosts';
 import HttpPostForm from './components/HttpPostForm';
+import ReduxDemo from './components/ReduxDemo';
 
 function App() {
   return (
@@ -46,9 +47,10 @@ function App() {
       <HoverCounter/>
       <AssetProvider value="Vakacharla Assets">
         <Chandra/>
-      </AssetProvider>*/}
+      </AssetProvider>
       <HttpDisplayPosts/>
-      <HttpPostForm/>
+      <HttpPostForm/>*/}
+      <ReduxDemo/>
     </div>
   );
 }
