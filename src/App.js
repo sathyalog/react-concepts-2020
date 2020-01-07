@@ -13,11 +13,13 @@ import './App.css';
 // import Form from './components/Form';
 // import LifecycleA from './components/LifecycleA';
 //import ParentComp from './components/ParentComp';
-import RefsDemo from './components/RefsDemo';
-import FRParentInput from './components/FRParentInput';
-import PortalDemo from './components/PortalDemo';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
+// import RefsDemo from './components/RefsDemo';
+// import FRParentInput from './components/FRParentInput';
+// import PortalDemo from './components/PortalDemo';
+// import ClickCounter from './components/ClickCounter';
+// import HoverCounter from './components/HoverCounter';
+import Chandra from './components/Chandra';
+import {AssetProvider} from './components/context'
 
 function App() {
   return (
@@ -37,9 +39,12 @@ function App() {
       <LifecycleA/>
       <ParentComp/>
       <RefsDemo/> 
-      <PortalDemo/>*/}
+      <PortalDemo/>
       <ClickCounter name="User"/>
-      <HoverCounter/>
+      <HoverCounter/>*/}
+      <AssetProvider value="Vakacharla Assets">
+        <Chandra/>
+      </AssetProvider>
     </div>
   );
 }

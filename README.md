@@ -33,6 +33,7 @@ Following are the snippets shortcut to use
 16. Forward Refs
 17. Portals
 18. HOC - Higher Order Components
+19. Context API - Eg: Vihaan(Grandson) is directly fetching his GrandFather(Chandra) assets without his Father(Sathya) help.
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
