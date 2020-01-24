@@ -25,8 +25,9 @@ import './App.css';
 // import ReduxDemo from './components/ReduxDemo';
 // import ClassCounter from './components/hooks/ClassCounter';
 // import HooksCounter from './components/hooks/HooksCounter';
-import ClassCounterTwo from './components/hooks/ClassCounterTwo';
-import HooksCounterTwo from './components/hooks/HooksCounterTwo';
+// import ClassCounterTwo from './components/hooks/ClassCounterTwo';
+// import HooksCounterTwo from './components/hooks/HooksCounterTwo';
+import HooksThree from './components/hooks/HooksThree';
 
 function App() {
   return (
@@ -56,9 +57,10 @@ function App() {
       <HttpPostForm/>
       <ReduxDemo/>
       <ClassCounter/>
-      <HooksCounter/>*/}
+      <HooksCounter/>
       <ClassCounterTwo/>
-      <HooksCounterTwo/>
+      <HooksCounterTwo/>*/}
+      <HooksThree/>
     </div>
   );
 }
