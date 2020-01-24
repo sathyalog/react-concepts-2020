@@ -23,12 +23,12 @@ import './App.css';
 // import HttpDisplayPosts from './components/HttpDisplayPosts';
 // import HttpPostForm from './components/HttpPostForm';
 // import ReduxDemo from './components/ReduxDemo';
-// import ClassCounter from './components/hooks/ClassCounter';
-// import HooksCounter from './components/hooks/HooksCounter';
+import ClassCounter from './components/hooks/ClassCounter';
+import HooksCounter from './components/hooks/HooksCounter';
 // import ClassCounterTwo from './components/hooks/ClassCounterTwo';
 // import HooksCounterTwo from './components/hooks/HooksCounterTwo';
 // import HooksObject from './components/hooks/HooksWithObject';
-import HooksWithArray from './components/hooks/HooksWithArray';
+// import HooksWithArray from './components/hooks/HooksWithArray';
 
 function App() {
   return (
@@ -61,8 +61,10 @@ function App() {
       <HooksCounter/>
       <ClassCounterTwo/>
       <HooksCounterTwo/>
-      <HooksObject/>*/}
-      <HooksWithArray />
+      <HooksObject/>
+      <HooksWithArray />*/}
+      <ClassCounter/>
+      <HooksCounter/>
     </div>
   );
 }

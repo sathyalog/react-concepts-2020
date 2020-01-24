@@ -39,8 +39,10 @@ Following are the snippets shortcut to use
 21. Redux with a basic example
 22. Hooks Introduction - Class Counter vs Hooks Counter - hooks folder
 23. Using Previous State in Classes and Hooks. Refer - Class Counter Two and Hooks Counter Two files in hooks folder
-24. Hooks with Object - Hooks Three file in hooks folder
+24. Hooks with Object - HooksWithObject file in hooks folder
     - Note: setState can merge the state with other values but where as useState cannot merge the state and we need to handle additionally using spread operator. Please refer the HooksThree.js onChange of input where we use ...name in setName. Which means, get replica of name object and later set firstName with input value.
+25. Hooks with array
+26. useEffect - will execute everytime the component renders/re-renders. Just an replacement of componentDidMount/componentDidUpdate in class components. Advantage over here is instead of using 2 lifecycle methods in class components, we can use this useEffect only once in functional component.
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
