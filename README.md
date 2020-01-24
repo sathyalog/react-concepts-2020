@@ -2,7 +2,7 @@
 
 `npm start`
 
-Please follow the commit names to understand the concepts clearly.
+Please follow the commit names to understand the concepts clearly. Also, to see the output you need to un-comment the required code in App.js
 
 For more info: Please visit this [link](https://sathyalog.wordpress.com/2019/12/16/react-basics-2020/)
 

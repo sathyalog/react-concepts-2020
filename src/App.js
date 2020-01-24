@@ -23,6 +23,8 @@ import './App.css';
 import HttpDisplayPosts from './components/HttpDisplayPosts';
 import HttpPostForm from './components/HttpPostForm';
 import ReduxDemo from './components/ReduxDemo';
+import ClassCounter from './components/hooks/ClassCounter';
+import HooksCounter from './components/hooks/HooksCounter';
 
 function App() {
   return (
@@ -49,8 +51,10 @@ function App() {
         <Chandra/>
       </AssetProvider>
       <HttpDisplayPosts/>
-      <HttpPostForm/>*/}
-      <ReduxDemo/>
+      <HttpPostForm/>
+      <ReduxDemo/>*/}
+      <ClassCounter/>
+      <HooksCounter/>
     </div>
   );
 }
