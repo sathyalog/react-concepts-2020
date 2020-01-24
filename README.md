@@ -37,6 +37,8 @@ Following are the snippets shortcut to use
 19. Context API - Eg: Vihaan(Grandson) is directly fetching his GrandFather(Chandra) assets without his Father(Sathya) help.
 20. HTTP - GET and POST using Axios
 21. Redux with a basic example
+22. Hooks Introduction - Class Counter vs Hooks Counter - hooks folder
+23. Using Previous State in Classes and Hooks. Refer - Class Counter Two and Hooks Counter Two files in hooks folder
 --------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

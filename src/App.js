@@ -20,11 +20,13 @@ import './App.css';
 // import HoverCounter from './components/HoverCounter';
 // import Chandra from './components/Chandra';
 // import {AssetProvider} from './components/context';
-import HttpDisplayPosts from './components/HttpDisplayPosts';
-import HttpPostForm from './components/HttpPostForm';
-import ReduxDemo from './components/ReduxDemo';
-import ClassCounter from './components/hooks/ClassCounter';
-import HooksCounter from './components/hooks/HooksCounter';
+// import HttpDisplayPosts from './components/HttpDisplayPosts';
+// import HttpPostForm from './components/HttpPostForm';
+// import ReduxDemo from './components/ReduxDemo';
+// import ClassCounter from './components/hooks/ClassCounter';
+// import HooksCounter from './components/hooks/HooksCounter';
+import ClassCounterTwo from './components/hooks/ClassCounterTwo';
+import HooksCounterTwo from './components/hooks/HooksCounterTwo';
 
 function App() {
   return (
@@ -52,9 +54,11 @@ function App() {
       </AssetProvider>
       <HttpDisplayPosts/>
       <HttpPostForm/>
-      <ReduxDemo/>*/}
+      <ReduxDemo/>
       <ClassCounter/>
-      <HooksCounter/>
+      <HooksCounter/>*/}
+      <ClassCounterTwo/>
+      <HooksCounterTwo/>
     </div>
   );
 }
