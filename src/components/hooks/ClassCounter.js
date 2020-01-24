@@ -5,7 +5,8 @@ class ClassCounter extends Component {
         super(props)
     
         this.state = {
-             count: 0
+             count: 0,
+             name:''
         }
     }
 
@@ -19,13 +20,17 @@ class ClassCounter extends Component {
         document.title = `You clicked ${this.state.count} times`
     }
 
-    componentDidUpdate(prevState, prevProps) {
-        document.title = `You clicked ${this.state.count} times`
+    componentDidUpdate(prevProps, prevState) {
+        if(prevState.count !== this.state.count) { // comment this line and notice on entering input will be logged in console all the time. We need to update document tile only when count value changes in state.
+            console.log('Updating document title');
+            document.title = `You clicked ${this.state.count} times`;
+        }
     }
     
     render() {
         return (
             <div>
+                <input type="text" value={this.state.name} onChange={(e) => this.setState({name: e.target.value})}/>
                 <button onClick={() => this.clickCounter()}>Count {this.state.count}</button>
             </div>
         )
