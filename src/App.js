@@ -27,7 +27,8 @@ import './App.css';
 // import HooksCounter from './components/hooks/HooksCounter';
 // import ClassCounterTwo from './components/hooks/ClassCounterTwo';
 // import HooksCounterTwo from './components/hooks/HooksCounterTwo';
-import HooksThree from './components/hooks/HooksThree';
+// import HooksObject from './components/hooks/HooksWithObject';
+import HooksWithArray from './components/hooks/HooksWithArray';
 
 function App() {
   return (
@@ -59,8 +60,9 @@ function App() {
       <ClassCounter/>
       <HooksCounter/>
       <ClassCounterTwo/>
-      <HooksCounterTwo/>*/}
-      <HooksThree/>
+      <HooksCounterTwo/>
+      <HooksObject/>*/}
+      <HooksWithArray />
     </div>
   );
 }
