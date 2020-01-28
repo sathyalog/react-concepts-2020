@@ -1,4 +1,12 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  useRouteMatch
+} from "react-router-dom";
 // import logo from './logo.svg';
 import './App.css';
 // import Greet from './components/Greet';
@@ -23,15 +31,17 @@ import './App.css';
 // import HttpDisplayPosts from './components/HttpDisplayPosts';
 // import HttpPostForm from './components/HttpPostForm';
 // import ReduxDemo from './components/ReduxDemo';
-import ClassCounter from './components/hooks/ClassCounter';
-import HooksCounter from './components/hooks/HooksCounter';
+// import ClassCounter from './components/hooks/ClassCounter';
+// import HooksCounter from './components/hooks/HooksCounter';
 // import ClassCounterTwo from './components/hooks/ClassCounterTwo';
 // import HooksCounterTwo from './components/hooks/HooksCounterTwo';
-// import HooksObject from './components/hooks/HooksWithObject';
+// import HooksThree from './components/hooks/HooksWithObject';
 // import HooksWithArray from './components/hooks/HooksWithArray';
+import DataFetching from './components/hooks/DataFetching';
 
 function App() {
   return (
+    <Router>
     <div className="App">
        {/*<FRParentInput/>
       <Greeting name='Sathya Vakacharla'>Class Component children props</Greeting>
@@ -62,10 +72,12 @@ function App() {
       <ClassCounterTwo/>
       <HooksCounterTwo/>
       <HooksObject/>
-      <HooksWithArray />*/}
+      <HooksWithArray />
       <ClassCounter/>
-      <HooksCounter/>
+      <HooksCounter/>*/}
+      <DataFetching />
     </div>
+    </Router>
   );
 }
 
